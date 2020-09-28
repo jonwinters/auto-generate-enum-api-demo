@@ -7,7 +7,7 @@ import pw.jonwinters.common.annotations.EnumName;
 import pw.jonwinters.common.model.Document;
 
 @Getter
-@EnumApi
+@EnumApi(value = "/demos")
 public enum Demo implements Document<Integer> {
 
     FIRST("first", 1), SECOND("second", 2);
